@@ -13,8 +13,8 @@ def run_test(questions):
         answer = input(question.prompt)
         if answer == question.answer:
             score += 1
-    print('You got ' + str(score) + '/' + str(len(questions)) + ' correct') \
-run_test(questions)
+    print('You got ' + str(score) + '/' + str(len(questions)) + ' correct')
+    \run_test(questions)
 
 class Question:
     def __init__(self, prompt, answer):
