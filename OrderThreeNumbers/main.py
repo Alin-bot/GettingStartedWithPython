@@ -1,6 +1,6 @@
 
 def printing_numbers(nr_1, nr_2, nr_3):
-    print(nr_1 + ' ' + nr_2 + ' ' + nr_3)
+    print('Ascending order of your numbers: ' + str(nr_1) + ' ' + str(nr_2) + ' ' + str(nr_3))
 
 
 def ordering(nr_1, nr_2, nr_3):
